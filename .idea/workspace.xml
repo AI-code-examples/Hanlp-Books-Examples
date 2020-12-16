@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e83184-d0b5-4d56-885a-f3b27d7fe10f" name="Default Changelist" comment="项目文件">
-      <change afterPath="$PROJECT_DIR$/data/dictionary/CoreNatureDictionary.mini.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/ch02/sec02/SegmentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +30,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,7 +118,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -138,7 +133,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.call_java">
+  <component name="RunManager" selected="Python.NaiveDictionaryBasedSegmentation">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.ch01.HelloWorld" />
       <module name="Hanlp-Books-Examples" />
@@ -165,6 +160,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NaiveDictionaryBasedSegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hanlp-Books-Examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="call_java" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,12 +206,13 @@
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.NaiveDictionaryBasedSegmentation" />
       <item itemvalue="Python.call_java" />
+      <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.call_java" />
+        <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
         <item itemvalue="Application.NaiveDictionaryBasedSegmentation" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Python.call_java" />
       </list>
     </recent_temporary>
   </component>
