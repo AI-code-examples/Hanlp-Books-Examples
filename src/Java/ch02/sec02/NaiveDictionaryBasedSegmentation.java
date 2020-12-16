@@ -63,7 +63,7 @@ public class NaiveDictionaryBasedSegmentation {
             SegmentMethod.segmentForwardLongest(text, dictionary);
 
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
-        System.out.printf("%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
+        System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);
 
         System.out.println("逆向最长");
         start = System.currentTimeMillis();
@@ -71,7 +71,7 @@ public class NaiveDictionaryBasedSegmentation {
             SegmentMethod.segmentBackwardLongest(text, dictionary);
 
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
-        System.out.printf("%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
+        System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);
 
         System.out.println("双向最长");
         start = System.currentTimeMillis();
@@ -79,7 +79,7 @@ public class NaiveDictionaryBasedSegmentation {
             SegmentMethod.segmentBidirectional(text, dictionary);
 
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
-        System.out.printf("%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
+        System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);
 
 
     }
