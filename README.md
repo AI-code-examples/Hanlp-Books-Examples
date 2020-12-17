@@ -8,6 +8,10 @@
 
 [JDK下载](https://developers.redhat.com/products/openjdk/download?sc_cid=701f2000000RWTnAAO)，建议下载 11.0的版本。
 
+开发包下载
+
+-   JUnit5
+
 ### Python
 
 Hanlp 1.x 的安装
@@ -44,10 +48,7 @@ Hanlp 1.x 的安装
 
 下载支持文件：
 
-[hanlp-1.7.8-release.zip](http://download.hanlp.com/hanlp-1.7.8-release.zip)
+-   [hanlp-1.7.8-release.zip](http://download.hanlp.com/hanlp-1.7.8-release.zip)：文件包括了开发包和源代码
+-   [data-for-1.7.5.zip](http://download.hanlp.com/data-for-1.7.5.zip)：数据文件
 
-[data-for-1.7.5.zip](http://download.hanlp.com/data-for-1.7.5.zip)
-
-将两个文件解压到：`~\anaconda3\lib\site-packages\pyhanlp\static\`
-
-注：使用 `hanlp` 命令时会自动下载支持的文件，如果无法正确下载，可以去上述地址下载。
+注：使用 `hanlp` 命令时会自动下载支持的文件，如果无法正确下载，可以去上述地址下载。将两个文件解压到：`~\anaconda3\lib\site-packages\pyhanlp\static\`
