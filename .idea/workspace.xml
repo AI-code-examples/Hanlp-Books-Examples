@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e83184-d0b5-4d56-885a-f3b27d7fe10f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/MainMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hanlp_1_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hanlp_1_7_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/SegmentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveSegmentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ch01/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveSegmentMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Python/ch01/call_java.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +37,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -134,10 +130,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/hanlp/hanlp-1.7.8.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -145,20 +141,23 @@
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples" />
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\com\hanlp\demo\ch01" />
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\Java" />
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\com\hanlp\demo" />
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\Python" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Java.ch02.sec04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in TrieTestCase.py">
+  <component name="RunManager" selected="Python.DoubleArrayTrie (1)">
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,7 +181,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
-    <configuration name="Trie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleArrayTrie (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,11 +189,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch02/sec05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\Python\ch02\sec04\Trie.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch02/sec05/DoubleArrayTrie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,76 +202,104 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TrieTestCase.TrieTestCase.test_search" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="DoubleArrayTrie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TrieTestCase.TrieTestCase.test_search&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/ch02/sec05/DoubleArrayTrie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TrieTestCase.TrieTestCase.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="NaiveDictionaryBasedSegmentation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch02/sec02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TrieTestCase.TrieTestCase.test_something&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in NodeTestCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="NaiveDictionaryBasedSegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/Python/ch02/sec04/NodeTestCase.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TrieTestCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="call_java" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/Python/ch02/sec04/TrieTestCase.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch01/call_java.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Trie" />
-      <item itemvalue="Python tests.Unittests for TrieTestCase.TrieTestCase.test_something" />
-      <item itemvalue="Python tests.Unittests in NodeTestCase.py" />
-      <item itemvalue="Python tests.Unittests in TrieTestCase.py" />
-      <item itemvalue="Python tests.Unittests for TrieTestCase.TrieTestCase.test_search" />
+      <item itemvalue="Python.DoubleArrayTrie" />
+      <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
+      <item itemvalue="Python.DoubleArrayTrie (1)" />
+      <item itemvalue="Python.call_java" />
+      <item itemvalue="Python.NaiveDictionaryBasedSegmentation (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in TrieTestCase.py" />
-        <item itemvalue="Python tests.Unittests for TrieTestCase.TrieTestCase.test_search" />
-        <item itemvalue="Python tests.Unittests in NodeTestCase.py" />
-        <item itemvalue="Python tests.Unittests for TrieTestCase.TrieTestCase.test_something" />
-        <item itemvalue="Python.Trie" />
+        <item itemvalue="Python.DoubleArrayTrie (1)" />
+        <item itemvalue="Python.NaiveDictionaryBasedSegmentation (1)" />
+        <item itemvalue="Python.call_java" />
+        <item itemvalue="Python.DoubleArrayTrie" />
+        <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
       </list>
     </recent_temporary>
   </component>
