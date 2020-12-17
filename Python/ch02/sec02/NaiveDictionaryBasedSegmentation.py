@@ -16,7 +16,7 @@
 """
 from time import time
 
-from jpype import JClass
+from pyhanlp import JClass
 from pyhanlp import HanLP
 
 from tools import show_subtitle
