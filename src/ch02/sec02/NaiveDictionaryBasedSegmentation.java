@@ -1,4 +1,4 @@
-package Java.ch02.sec02;
+package ch02.sec02;
 
 import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.dictionary.CoreDictionary;

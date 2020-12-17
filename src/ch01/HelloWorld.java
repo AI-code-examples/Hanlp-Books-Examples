@@ -1,4 +1,4 @@
-package Java.ch01;
+package ch01;
 
 
 import com.hankcs.hanlp.HanLP;
