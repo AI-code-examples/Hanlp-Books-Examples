@@ -16,14 +16,14 @@ public class NaiveDictionaryBasedSegmentation {
         System.out.println(dictionary.keySet().iterator().next());
 
         // 完全切分
-        System.out.println(SegmentMethod.segmentFully("就读北京大学", dictionary));
+        System.out.println(NaiveSegmentMethod.segmentFully("就读北京大学", dictionary));
         // 正向最长匹配
-        System.out.println(SegmentMethod.segmentForwardLongest("就读北京大学", dictionary));
-        System.out.println(SegmentMethod.segmentForwardLongest("研究生命起源", dictionary));
-        System.out.println(SegmentMethod.segmentForwardLongest("项目的研究", dictionary));
+        System.out.println(NaiveSegmentMethod.segmentForwardLongest("就读北京大学", dictionary));
+        System.out.println(NaiveSegmentMethod.segmentForwardLongest("研究生命起源", dictionary));
+        System.out.println(NaiveSegmentMethod.segmentForwardLongest("项目的研究", dictionary));
         // 逆向最长匹配
-        System.out.println(SegmentMethod.segmentBackwardLongest("就读北京大学", dictionary));
-        System.out.println(SegmentMethod.segmentBackwardLongest("研究生命起源", dictionary));
+        System.out.println(NaiveSegmentMethod.segmentBackwardLongest("就读北京大学", dictionary));
+        System.out.println(NaiveSegmentMethod.segmentBackwardLongest("研究生命起源", dictionary));
         // 双向最长匹配
         String[] text = new String[]{
                 "项目的研究",
@@ -37,9 +37,9 @@ public class NaiveDictionaryBasedSegmentation {
             System.out.printf("| %d | %s | %s | %s | %s|\n",
                     i + 1,
                     text[i],
-                    SegmentMethod.segmentForwardLongest(text[i], dictionary),
-                    SegmentMethod.segmentBackwardLongest(text[i], dictionary),
-                    SegmentMethod.segmentBidirectional(text[i], dictionary)
+                    NaiveSegmentMethod.segmentForwardLongest(text[i], dictionary),
+                    NaiveSegmentMethod.segmentBackwardLongest(text[i], dictionary),
+                    NaiveSegmentMethod.segmentBidirectional(text[i], dictionary)
             );
         }
 
@@ -60,7 +60,7 @@ public class NaiveDictionaryBasedSegmentation {
         System.out.println("正向最长");
         start = System.currentTimeMillis();
         for (int i = 0; i < pressure; ++i)
-            SegmentMethod.segmentForwardLongest(text, dictionary);
+            NaiveSegmentMethod.segmentForwardLongest(text, dictionary);
 
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
         System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);
@@ -68,7 +68,7 @@ public class NaiveDictionaryBasedSegmentation {
         System.out.println("逆向最长");
         start = System.currentTimeMillis();
         for (int i = 0; i < pressure; ++i)
-            SegmentMethod.segmentBackwardLongest(text, dictionary);
+            NaiveSegmentMethod.segmentBackwardLongest(text, dictionary);
 
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
         System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);
@@ -76,7 +76,7 @@ public class NaiveDictionaryBasedSegmentation {
         System.out.println("双向最长");
         start = System.currentTimeMillis();
         for (int i = 0; i < pressure; ++i)
-            SegmentMethod.segmentBidirectional(text, dictionary);
+            NaiveSegmentMethod.segmentBidirectional(text, dictionary);
 
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
         System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);

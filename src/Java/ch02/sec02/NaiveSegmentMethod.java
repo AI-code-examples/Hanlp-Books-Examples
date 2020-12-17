@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class SegmentMethod {
+public class NaiveSegmentMethod {
     /**
      * 完全切分式的中文分词算法
      *
