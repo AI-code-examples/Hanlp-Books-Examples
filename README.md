@@ -2,6 +2,13 @@
 
 《自然语言处理入门》书中的例子
 
+-   书中 Java 代码：https://github.com/hankcs/HanLP/tree/1.x/src/test/java/com/hankcs/book
+-   书中 Python 代码：https://github.com/hankcs/pyhanlp/tree/master/tests/book
+
+阅读总结：
+
+这本书更像个自然语言处理的算法书。
+
 ## Environment
 
 ### java
