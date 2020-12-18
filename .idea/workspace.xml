@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e83184-d0b5-4d56-885a-f3b27d7fe10f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ch01/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveDictionaryBasedSegmentation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ch02/sec02/NaiveSegmentMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Python/ch01/call_java.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +148,20 @@
       <recent name="Java.ch02.sec04" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DoubleArrayTrie (1)">
+  <component name="RunManager" selected="Python.aho_corasick">
+    <configuration name="AhoCorasickSegmentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec06.AhoCorasickSegmentation" />
+      <module name="Hanlp-Books-Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02.sec06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -202,27 +206,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DoubleArrayTrie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Hanlp-Books-Examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/ch02/sec05/DoubleArrayTrie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="NaiveDictionaryBasedSegmentation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NaiveDictionaryBasedSegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aho_corasick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Python/ch02/sec02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch02/sec06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch02/sec06/aho_corasick.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,19 +270,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DoubleArrayTrie" />
-      <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
       <item itemvalue="Python.DoubleArrayTrie (1)" />
       <item itemvalue="Python.call_java" />
       <item itemvalue="Python.NaiveDictionaryBasedSegmentation (1)" />
+      <item itemvalue="Application.AhoCorasickSegmentation" />
+      <item itemvalue="Python.aho_corasick" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aho_corasick" />
+        <item itemvalue="Application.AhoCorasickSegmentation" />
         <item itemvalue="Python.DoubleArrayTrie (1)" />
         <item itemvalue="Python.NaiveDictionaryBasedSegmentation (1)" />
         <item itemvalue="Python.call_java" />
-        <item itemvalue="Python.DoubleArrayTrie" />
-        <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
       </list>
     </recent_temporary>
   </component>
