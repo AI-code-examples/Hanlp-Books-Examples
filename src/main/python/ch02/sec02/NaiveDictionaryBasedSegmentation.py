@@ -58,9 +58,8 @@ def forward_segment(text, dic):
         longest_word = text[i]
         for j in range(i + 1, len(text) + 1):
             word = text[i:j]
-            if word in dic:
-                if len(word) > len(longest_word):
-                    longest_word = word
+            if (word in dic) and (len(word) > len(longest_word)):
+                longest_word = word
         word_list.append(longest_word)  # 正向搜索，越先找到的单词排在越前面
         i += len(longest_word)
     return word_list
@@ -73,10 +72,9 @@ def backward_segment(text, dic):
         longest_word = text[i:i + 1]
         for j in range(i):
             word = text[j:i + 1]
-            if word in dic:
-                if len(word) > len(longest_word):
-                    longest_word = word
-                    break
+            if (word in dic) and (len(word) > len(longest_word)):
+                longest_word = word
+                break
         word_list.insert(0, longest_word)  # 逆向搜索，越后找到的单词排在越前面
         i -= len(longest_word)
     return word_list
@@ -106,7 +104,7 @@ def evaluate_speed(desc, segment, text, dic):
     start_time = time()
     PRESSURE = 10000
     show_subtitle(desc)
-    for i in range(PRESSURE):
+    for _ in range(PRESSURE):
         segment(text, dic)
     elapsed_time = time() - start_time
     print("%.2f 万字/秒\n" % (len(text) * PRESSURE / 10000 / elapsed_time))
@@ -116,15 +114,19 @@ def main():
     dictionary = load_dictionary()
     print("词典大小：{}个词条".format(len(dictionary)))
     print("词典内容：", list(dictionary)[0:10])
+
     show_subtitle("完全切分")
     print(fully_segment("就读北京大学", dictionary))
+
     show_subtitle("正向最长匹配")
     print(forward_segment("就读北京大学", dictionary))
     print(forward_segment("研究生命起源", dictionary))
     print(forward_segment("项目的研究", dictionary))
+
     show_subtitle("逆向最长匹配")
     print(backward_segment("就读北京大学", dictionary))
     print(backward_segment("研究生命起源", dictionary))
+
     show_subtitle("|文本编号|文本内容|正向最长匹配|逆向最长匹配|双向最长匹配|")
     document = [
         "项目的研究",

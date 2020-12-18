@@ -15,7 +15,7 @@
 @理解：
 """
 
-from Python.ch02.sec04.Node import Node
+from ch02.sec04.Node import Node
 
 
 class Trie(Node):
@@ -56,13 +56,16 @@ def main():
 
     # 删
     trie["自然"] = None
+    print(trie["自然"])
     assert '自然' not in trie
 
     # 改
     trie["自然语言"] = 'human language'
+    print(trie["自然语言"])
     assert trie["自然语言"] == 'human language'
 
     # 查
+    print(trie["自然"])
     assert trie["入门"] == 'introduction'
 
     pass
