@@ -25,3 +25,5 @@ hs_err_pid*
 .history
 /target/
 /__pycache__/
+src/main/python/__pycache__/tools.cpython-36.pyc
+src/main/python/ch02/sec04/__pycache__/Node.cpython-36.pyc
