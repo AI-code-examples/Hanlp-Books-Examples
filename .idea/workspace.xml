@@ -4,207 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8e83184-d0b5-4d56-885a-f3b27d7fe10f" name="Default Changelist" comment="">
+    <list default="true" id="ff90cb09-b021-46b7-8187-8c0dfae19a15" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Hanlp-Books-Examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code-comments.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hanlp_1_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Unit Test" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
-        <option value="Python Script" />
-      </list>
-    </option>
-    <option name="SCHEME" value="Project" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="jdkForImporter" value="#JAVA_HOME" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1lgo9w9QA0pHt1MlS9rBJkj0Mq7" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1lpDnDY0Pi1w7639zEZViieNKBv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/hanlp/hanlp-1.7.8.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.side.proportion" value="0.28390804" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\data\dictionary" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\com\hanlp\demo\ch01" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\Java" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\com\hanlp\demo" />
-      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\src\Python" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Java.ch02.sec04" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.aho_corasick">
-    <configuration name="AhoCorasickSegmentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec06.AhoCorasickSegmentation" />
+  <component name="RunManager" selected="Python.NaiveDictionaryBasedSegmentation (1)">
+    <configuration name="AhoCorasickDoubleArrayTrieSegmentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec07.AhoCorasickDoubleArrayTrieSegmentation" />
       <module name="Hanlp-Books-Examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch02.sec06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JarApplication">
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DoubleArrayTrie (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="AhoCorasickSegmentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec06.AhoCorasickSegmentation" />
       <module name="Hanlp-Books-Examples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch02/sec05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch02/sec05/DoubleArrayTrie.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="NaiveDictionaryBasedSegmentation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
@@ -214,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch02/sec02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch02/sec02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aho_corasick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NaiveDictionaryBasedSegmentation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch02/sec06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/ch02/sec02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch02/sec06/aho_corasick.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/ch02/sec02/NaiveDictionaryBasedSegmentation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/ch01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/ch01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/ch01/call_java.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/ch01/call_java.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,36 +122,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.DoubleArrayTrie (1)" />
-      <item itemvalue="Python.call_java" />
-      <item itemvalue="Python.NaiveDictionaryBasedSegmentation (1)" />
-      <item itemvalue="Application.AhoCorasickSegmentation" />
-      <item itemvalue="Python.aho_corasick" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aho_corasick" />
-        <item itemvalue="Application.AhoCorasickSegmentation" />
-        <item itemvalue="Python.DoubleArrayTrie (1)" />
         <item itemvalue="Python.NaiveDictionaryBasedSegmentation (1)" />
+        <item itemvalue="Python.NaiveDictionaryBasedSegmentation" />
         <item itemvalue="Python.call_java" />
+        <item itemvalue="Application.AhoCorasickDoubleArrayTrieSegmentation" />
+        <item itemvalue="Application.AhoCorasickSegmentation" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8e83184-d0b5-4d56-885a-f3b27d7fe10f" name="Default Changelist" comment="" />
-      <created>1608027949042</created>
+      <changelist id="ff90cb09-b021-46b7-8187-8c0dfae19a15" name="Default Changelist" comment="" />
+      <created>1608285305711</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608027949042</updated>
+      <updated>1608285305711</updated>
     </task>
     <servers />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

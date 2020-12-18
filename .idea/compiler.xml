@@ -9,8 +9,5 @@
         <module name="Hanlp-Books-Examples" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="Hanlp-Books-Examples" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
