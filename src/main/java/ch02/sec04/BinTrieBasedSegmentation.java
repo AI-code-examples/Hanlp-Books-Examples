@@ -2,8 +2,8 @@ package ch02.sec04;
 
 import ch02.sec02.NaiveSegmentMethod;
 import com.hankcs.hanlp.collection.trie.bintrie.BinTrie;
-import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
+import data.Dictionary;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -14,8 +14,7 @@ import java.util.TreeMap;
 public class BinTrieBasedSegmentation {
     public static void main(String[] args) throws IOException {
         // 加载字典
-        TreeMap<String, CoreDictionary.Attribute> dictionary =
-                IOUtil.loadDictionary("data/dictionary/CoreNatureDictionary.mini.txt");
+        TreeMap<String, CoreDictionary.Attribute> dictionary = Dictionary.loadDictionary(-1);
         final BinTrie<CoreDictionary.Attribute> binTrie = new BinTrie<>(dictionary);
         Map<String, CoreDictionary.Attribute> binTrieMap = new Map<String, CoreDictionary.Attribute>() {
             @Override

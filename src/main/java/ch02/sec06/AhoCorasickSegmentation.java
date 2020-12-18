@@ -1,14 +1,14 @@
 package ch02.sec06;
 
-import com.hankcs.hanlp.algorithm.ahocorasick.trie.Emit;
-import com.hankcs.hanlp.algorithm.ahocorasick.trie.Trie;
-import com.hankcs.hanlp.corpus.io.IOUtil;
-import com.hankcs.hanlp.dictionary.CoreDictionary;
+import static ch02.sec06.AhoCorasickSegmentMethod.segmentFully;
 
 import java.io.IOException;
 import java.util.TreeMap;
 
-import static ch02.sec06.AhoCorasickSegmentMethod.segmentFully;
+import com.hankcs.hanlp.algorithm.ahocorasick.trie.Emit;
+import com.hankcs.hanlp.algorithm.ahocorasick.trie.Trie;
+import com.hankcs.hanlp.dictionary.CoreDictionary;
+import data.Dictionary;
 
 public class AhoCorasickSegmentation {
     public static void main(String[] args) throws IOException {
@@ -18,8 +18,7 @@ public class AhoCorasickSegmentation {
 
     private static void evaluateSpeed() throws IOException {
         // 加载词典
-        TreeMap<String, CoreDictionary.Attribute> dictionary =
-                IOUtil.loadDictionary("data/dictionary/CoreNatureDictionary.mini.txt");
+        TreeMap<String, CoreDictionary.Attribute> dictionary = Dictionary.loadDictionary(-1);
         Trie trie = new Trie(dictionary.keySet());
 
         String text = "江西鄱阳湖干枯，中国最大淡水湖变成大草原";
@@ -35,7 +34,7 @@ public class AhoCorasickSegmentation {
             segmentFully(text, trie);
         }
         costTime = (System.currentTimeMillis() - start) / (double) 1000;
-        System.out.printf("%.2f万字/秒\n", text.length() * pressure / 10000 / costTime);
+        System.out.printf("%.2f 万字/秒\n", text.length() * pressure / 10000 / costTime);
     }
 
     private static void classicDemo() {

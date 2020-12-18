@@ -1,8 +1,8 @@
 package ch02.sec05;
 
 import com.hankcs.hanlp.collection.trie.DoubleArrayTrie;
-import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
+import data.Dictionary;
 
 import java.io.IOException;
 import java.util.TreeMap;
@@ -18,8 +18,7 @@ public class DoubleArrayTrieBasedSegmentation {
 
     private static void testSpeed() throws IOException {
         // 加载词典
-        TreeMap<String, CoreDictionary.Attribute> dictionary =
-                IOUtil.loadDictionary("data/dictionary/CoreNatureDictionary.mini.txt");
+        TreeMap<String, CoreDictionary.Attribute> dictionary = Dictionary.loadDictionary(-1);
         DoubleArrayTrie<CoreDictionary.Attribute> dat = new DoubleArrayTrie<CoreDictionary.Attribute>(dictionary);
 
         String text = "江西鄱阳湖干枯，中国最大淡水湖变成大草原";

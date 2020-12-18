@@ -1,7 +1,7 @@
 package ch02.sec02;
 
-import com.hankcs.hanlp.corpus.io.IOUtil;
 import com.hankcs.hanlp.dictionary.CoreDictionary;
+import data.Dictionary;
 
 import java.io.IOException;
 import java.util.Map;
@@ -10,8 +10,7 @@ import java.util.TreeMap;
 public class NaiveDictionaryBasedSegmentation {
     public static void main(String[] args) throws IOException {
         // 加载词典
-        TreeMap<String, CoreDictionary.Attribute> dictionary =
-                IOUtil.loadDictionary("data/dictionary/CoreNatureDictionary.mini.txt");
+        TreeMap<String, CoreDictionary.Attribute> dictionary = Dictionary.loadDictionary(-1);
         System.out.printf("词典大小：%d个词条\n", dictionary.size());
         System.out.println(dictionary.keySet().iterator().next());
 
