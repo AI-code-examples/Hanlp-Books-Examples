@@ -15,9 +15,8 @@
 @理解：
 """
 from pyhanlp import HanLP, DoubleArrayTrieSegment
-from pyhanlp.static import HANLP_DATA_PATH
 
-from tools import beep_end, show_subtitle, show_title
+from tools import beep_end, show_title, get_root_path
 
 
 # ----------------------------------------------------------------------
@@ -29,8 +28,9 @@ def main():
     print(segment.seg("江西鄱阳湖干枯，中国最大淡水湖变成大草原"))
 
     show_title("自定义字典分词")
-    dict1 = HANLP_DATA_PATH + "/dictionary/CoreNatureDictionary.mini.txt"
-    dict2 = HANLP_DATA_PATH + "/dictionary/custom/上海地名.txt ns"
+    root_path = get_root_path()
+    dict1 = root_path + "/data/dictionary/CoreNatureDictionary.mini.txt"
+    dict2 = root_path + "/data/dictionary/custom/上海地名.txt ns"
     segment = DoubleArrayTrieSegment([dict1, dict2])
     terms = segment.seg("上海市虹口区大连西路550号SISU")
     print(terms)
