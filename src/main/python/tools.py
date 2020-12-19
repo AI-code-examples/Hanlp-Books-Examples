@@ -15,7 +15,22 @@
 @理解：
 """
 
+
 def show_subtitle(message):
     # 输出运行模块的子标题
     print('-' * 15, '>' + message + '<', '-' * 15)
+    pass
+
+
+def show_title(message):
+    # 输出运行模块的子标题
+    print()
+    print('=' * 15, '>' + message + '<', '=' * 15)
+    pass
+
+
+def beep_end():
+    # 运行结束的提醒
+    import winsound
+    winsound.Beep(600, 500)
     pass
