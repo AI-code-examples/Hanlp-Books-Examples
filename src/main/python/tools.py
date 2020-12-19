@@ -34,3 +34,10 @@ def beep_end():
     import winsound
     winsound.Beep(600, 500)
     pass
+
+
+def get_root_path():
+    import os
+    cur_path = os.path.abspath(os.path.dirname(__file__))
+    root_path = cur_path[:cur_path.find("Hanlp-Books-Examples\\") + len("Hanlp-Books-Examples\\")]
+    return root_path
