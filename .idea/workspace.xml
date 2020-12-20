@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/MainMethod.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/Python Script.py" beforeDir="false" />
@@ -13,16 +12,23 @@
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/prod.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/prod.env" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/prod.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,10 +37,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
@@ -43,13 +54,20 @@
     <property name="project.structure.side.proportion" value="0.28390804" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
-    <configuration name="EvaluateCWS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec09.EvaluateCWS" />
+  <component name="RunManager" selected="Python tests.Doctest demo_traditional_chinese2simplified_chinese">
+    <configuration name="DemoPinyin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec10.DemoPinyin" />
+      <module name="Hanlp-Books-Examples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTraditionalChinese2SimplifiedChinese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec10.DemoTraditionalChinese2SimplifiedChinese" />
       <module name="Hanlp-Books-Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec09.*" />
+          <option name="PATTERN" value="ch02.sec10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,9 +75,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Doctest demo_pinyin" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="Hanlp-Books-Examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch02/sec10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch02/sec10/demo_pinyin.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="demo_pinyin" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctest demo_traditional_chinese2simplified_chinese" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="Hanlp-Books-Examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch02/sec10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch02/sec10/demo_traditional_chinese2simplified_chinese.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="demo_traditional_chinese2simplified_chinese" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DemoPinyin" />
+      <item itemvalue="Application.DemoTraditionalChinese2SimplifiedChinese" />
+      <item itemvalue="Python tests.Doctest demo_pinyin" />
+      <item itemvalue="Python tests.Doctest demo_traditional_chinese2simplified_chinese" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EvaluateCWS" />
+        <item itemvalue="Python tests.Doctest demo_traditional_chinese2simplified_chinese" />
+        <item itemvalue="Python tests.Doctest demo_pinyin" />
+        <item itemvalue="Application.DemoPinyin" />
+        <item itemvalue="Application.DemoTraditionalChinese2SimplifiedChinese" />
       </list>
     </recent_temporary>
   </component>
@@ -73,5 +136,16 @@
       <updated>1608430583082</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ch02/sec10/DemoStopwords.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
