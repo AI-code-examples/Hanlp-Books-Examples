@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Hanlp-Books-Examples"
+        },
+        {
             "name": "Python: 当前文件",
             "type": "python",
             "request": "launch",
@@ -12,7 +19,7 @@
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}/src/main/python/",
             "env": {
-                "PYTHONPATH":"${cwd}/src/main/python/"
+                "PYTHONPATH": "${cwd}/src/main/python/"
             }
         },
         {
