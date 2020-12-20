@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "ch01.HelloWorld",
+            "projectName": "Hanlp-Books-Examples_744f13bd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaiveDictionaryBasedSegmentation",
+            "request": "launch",
+            "mainClass": "ch02.sec02.NaiveDictionaryBasedSegmentation",
+            "projectName": "Hanlp-Books-Examples_744f13bd"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "test",
