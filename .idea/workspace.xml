@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/MainMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/internal/Python Script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/prod.env" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/prod.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.28390804" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python tests.Doctest demo_traditional_chinese2simplified_chinese">
+  <component name="RunManager" selected="Python.sighan05_statistics">
     <configuration name="DemoPinyin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch02.sec10.DemoPinyin" />
       <module name="Hanlp-Books-Examples" />
@@ -74,6 +61,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="sighan05_statistics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Hanlp-Books-Examples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec02/sighan05_statistics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Doctest demo_pinyin" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
@@ -114,11 +122,13 @@
     <list>
       <item itemvalue="Application.DemoPinyin" />
       <item itemvalue="Application.DemoTraditionalChinese2SimplifiedChinese" />
+      <item itemvalue="Python.sighan05_statistics" />
       <item itemvalue="Python tests.Doctest demo_pinyin" />
       <item itemvalue="Python tests.Doctest demo_traditional_chinese2simplified_chinese" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sighan05_statistics" />
         <item itemvalue="Python tests.Doctest demo_traditional_chinese2simplified_chinese" />
         <item itemvalue="Python tests.Doctest demo_pinyin" />
         <item itemvalue="Application.DemoPinyin" />
@@ -144,6 +154,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ch02/sec10/DemoStopwords.java</url>
           <line>63</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/main/python/ch03/sec02/sighan05_statistics.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
