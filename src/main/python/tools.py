@@ -14,6 +14,7 @@
 @Desc       :   
 @理解：
 """
+import os
 
 
 def show_subtitle(message):
@@ -41,3 +42,14 @@ def get_root_path():
     cur_path = os.path.abspath(os.path.dirname(__file__))
     root_path = cur_path[:cur_path.find("Hanlp-Books-Examples\\") + len("Hanlp-Books-Examples\\")]
     return root_path
+
+
+def test_data_path():
+    """
+    获取测试数据路径，位于$root/data/test，根目录 $root 由配置文件 hanlp.properties 指定。
+    :return: 测试数据路径
+    """
+    data_path = os.path.join(get_root_path(), 'data/test/')
+    if not os.path.isdir(data_path):
+        os.mkdir(data_path)
+    return data_path
