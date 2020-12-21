@@ -13,6 +13,7 @@ import com.hankcs.hanlp.seg.Viterbi.ViterbiSegment;
 import java.util.List;
 
 import static ch03.sec03.DemoCorpusLoader.MY_CWS_CORPUS_PATH;
+import static tools.Tools.show_subtitle;
 
 public class DemoNgramSegment {
     public static final String MY_MODEL_PATH = "data/model/my_cws_model";
@@ -23,8 +24,11 @@ public class DemoNgramSegment {
     public static void main(String[] args) {
         // 第一次执行会报出警告，然后会转换 txt 文件为 bin 文件，后面就不再报错
         // 连续执行两次时，第二次使用的是第一次载入的 bin 文件
+        // 交换以下现场代码的顺序就可以看到区别
+        show_subtitle("my_cws_model");
         trainBigram(MY_CWS_CORPUS_PATH, MY_MODEL_PATH);
         loadBigram(MY_MODEL_PATH);
+        show_subtitle("msr_ngram");
         trainBigram(MSR_TRAIN_PATH, MSR_MODEL_PATH);
         loadBigram(MSR_MODEL_PATH);
     }
