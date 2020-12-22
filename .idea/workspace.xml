@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="">
+    <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="Ch03.Sec03.Core">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,26 +36,26 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28390804" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Python.sighan05_statistics">
-    <configuration name="DemoPinyin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec10.DemoPinyin" />
-      <module name="Hanlp-Books-Examples" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTraditionalChinese2SimplifiedChinese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec10.DemoTraditionalChinese2SimplifiedChinese" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\data\model\tmp" />
+      <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\data\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.demo_ngram_segment">
+    <configuration name="DemoCorpusLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch03.sec03.DemoCorpusLoader" />
       <module name="Hanlp-Books-Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec10.*" />
+          <option name="PATTERN" value="ch03.sec03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,7 +63,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sighan05_statistics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoNgramSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch03.sec03.DemoNgramSegment" />
+      <module name="Hanlp-Books-Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch03.sec03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo_corpus_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec02/sighan05_statistics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec03/demo_corpus_loader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,56 +97,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest demo_pinyin" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="demo_ngram_segment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch02/sec10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch02/sec10/demo_pinyin.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="demo_pinyin" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec03/demo_ngram_segment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctest demo_traditional_chinese2simplified_chinese" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="preamble" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch02/sec10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch02/sec10/demo_traditional_chinese2simplified_chinese.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="demo_traditional_chinese2simplified_chinese" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/preamble.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoPinyin" />
-      <item itemvalue="Application.DemoTraditionalChinese2SimplifiedChinese" />
-      <item itemvalue="Python.sighan05_statistics" />
-      <item itemvalue="Python tests.Doctest demo_pinyin" />
-      <item itemvalue="Python tests.Doctest demo_traditional_chinese2simplified_chinese" />
+      <item itemvalue="Application.DemoCorpusLoader" />
+      <item itemvalue="Application.DemoNgramSegment" />
+      <item itemvalue="Python.preamble" />
+      <item itemvalue="Python.demo_corpus_loader" />
+      <item itemvalue="Python.demo_ngram_segment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sighan05_statistics" />
-        <item itemvalue="Python tests.Doctest demo_traditional_chinese2simplified_chinese" />
-        <item itemvalue="Python tests.Doctest demo_pinyin" />
-        <item itemvalue="Application.DemoPinyin" />
-        <item itemvalue="Application.DemoTraditionalChinese2SimplifiedChinese" />
+        <item itemvalue="Python.demo_ngram_segment" />
+        <item itemvalue="Application.DemoNgramSegment" />
+        <item itemvalue="Python.demo_corpus_loader" />
+        <item itemvalue="Python.preamble" />
+        <item itemvalue="Application.DemoCorpusLoader" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +165,67 @@
       <option name="presentableId" value="Default" />
       <updated>1608430583082</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ch03.Sec02.Python.End">
+      <created>1608538336838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608538336838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ch03.Sec03.Data.End">
+      <created>1608545725571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608545725571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ch03.Sec02.Java.End">
+      <created>1608545909596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608545909596</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ch03.Sec02.DemoNgramSegment.补全错误说明">
+      <created>1608546506289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608546506289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ch03.Sec02.Tools.test_data_path().获取测试数据路径.End">
+      <created>1608546542477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608546542477</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ch03.Sec03.CoreDictionary.reload() 修正字典更新问题说明">
+      <created>1608630237752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608630237752</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ch03.Sec03.Data.End">
+      <created>1608630345397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608630345397</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ch03.Sec02.Python.End" />
+    <MESSAGE value="Ch03.Sec02.Data.End" />
+    <MESSAGE value="Ch03.Sec02.Java.End" />
+    <MESSAGE value="Ch03.Sec02.DemoNgramSegment.补全错误说明" />
+    <MESSAGE value="Ch03.Sec02.Tools.test_data_path().获取测试数据路径.End" />
+    <MESSAGE value="Ch03.Sec03.CoreDictionary.reload() 修正字典更新问题说明" />
+    <MESSAGE value="Ch03.Sec03.Data.End" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch03.Sec03.Data.End" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
