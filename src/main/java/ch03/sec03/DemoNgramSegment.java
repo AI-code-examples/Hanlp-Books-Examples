@@ -28,6 +28,7 @@ public class DemoNgramSegment {
         show_subtitle("my_cws_model");
         trainBigram(MY_CWS_CORPUS_PATH, MY_MODEL_PATH);
         loadBigram(MY_MODEL_PATH);
+        // ToDo: HanLP 更新了版本，增加了 CoreDictionary.reload() 函数，我还没有更新版本，没有测试这个功能。
         show_subtitle("msr_ngram");
         trainBigram(MSR_TRAIN_PATH, MSR_MODEL_PATH);
         loadBigram(MSR_MODEL_PATH);
