@@ -33,5 +33,6 @@ def main():
 
 
 if __name__ == '__main__':
+    # Note: 运行后可能会影响到环境的编码设置，导致 Console 输出为乱码，重启一次环境就好了
     main()
     beep_end()
