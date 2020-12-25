@@ -12,14 +12,10 @@ import com.hankcs.hanlp.seg.Viterbi.ViterbiSegment;
 
 import java.util.List;
 
-import static ch03.sec03.DemoCorpusLoader.MY_CWS_CORPUS_PATH;
+import static ch03.MSR.*;
 import static tools.Tools.show_subtitle;
 
 public class DemoNgramSegment {
-    public static final String MY_MODEL_PATH = "data/model/my_cws_model";
-    public static final String MSR_MODEL_PATH = "data/model/msr_ngram";
-    public static final String MSR_TRAIN_PATH = "data/test/icwb2-data/gold/msr_training_words.utf8";
-
 
     public static void main(String[] args) {
         // 第一次执行会报出警告，然后会转换 txt 文件为 bin 文件，后面就不再报错

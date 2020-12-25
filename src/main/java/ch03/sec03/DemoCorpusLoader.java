@@ -6,12 +6,12 @@ import com.hankcs.hanlp.corpus.io.IOUtil;
 
 import java.util.List;
 
+import static ch03.MSR.MY_CWS_CORPUS_PATH;
+
 /**
  * 手工加载语料库
  */
 public class DemoCorpusLoader {
-    public static String MY_CWS_CORPUS_PATH = "data/test/my_cws_corpus.txt";
-
     static {
         if (!IOUtil.isFileExisted(MY_CWS_CORPUS_PATH))
             IOUtil.saveTxt(MY_CWS_CORPUS_PATH, "商品 和 服务\n" + "商品 和服 物美价廉\n" + "服务 和 货币");
