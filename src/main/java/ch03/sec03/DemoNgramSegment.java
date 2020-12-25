@@ -50,7 +50,7 @@ public class DemoNgramSegment {
         return loadBigram(modelPath, true, true);
     }
 
-    private static Segment loadBigram(String modelPath, boolean verbose, boolean viterbi) {
+    public static Segment loadBigram(String modelPath, boolean verbose, boolean viterbi) {
 //        HanLP.Config.enableDebug();
         HanLP.Config.CoreDictionaryPath = modelPath + ".txt";
         HanLP.Config.BiGramDictionaryPath = modelPath + ".ngram.txt";
