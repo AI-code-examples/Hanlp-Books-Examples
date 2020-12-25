@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="Ch03.Sec03.Core">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch03/sec03/DemoNgramSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch03/sec03/DemoNgramSegment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Python Script" />
       </list>
@@ -41,21 +47,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28390804" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\data\model\tmp" />
       <recent name="C:\Users\Administrator\IdeaProjects\Hanlp-Books-Examples\data\test" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ch03.sec03" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.demo_ngram_segment">
-    <configuration name="DemoCorpusLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch03.sec03.DemoCorpusLoader" />
+  <component name="RunManager" selected="Python.demo_adjust_model">
+    <configuration name="DemoAdjustModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch03.sec05.DemoAdjustModel" />
       <module name="Hanlp-Books-Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch03.sec03.*" />
+          <option name="PATTERN" value="ch03.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoNgramSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch03.sec03.DemoNgramSegment" />
+    <configuration name="EvaluateBigram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch03.sec05.EvaluateBigram" />
       <module name="Hanlp-Books-Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch03.sec03.*" />
+          <option name="PATTERN" value="ch03.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo_corpus_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo_adjust_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec03/demo_corpus_loader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec05/demo_adjust_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,41 +127,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preamble" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/preamble.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/data/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoCorpusLoader" />
-      <item itemvalue="Application.DemoNgramSegment" />
-      <item itemvalue="Python.preamble" />
-      <item itemvalue="Python.demo_corpus_loader" />
+      <item itemvalue="Application.EvaluateBigram" />
+      <item itemvalue="Application.DemoAdjustModel" />
+      <item itemvalue="Python.demo_adjust_model" />
       <item itemvalue="Python.demo_ngram_segment" />
+      <item itemvalue="Python tests.Unittests in test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo_adjust_model" />
+        <item itemvalue="Python tests.Unittests in test" />
+        <item itemvalue="Application.DemoAdjustModel" />
         <item itemvalue="Python.demo_ngram_segment" />
-        <item itemvalue="Application.DemoNgramSegment" />
-        <item itemvalue="Python.demo_corpus_loader" />
-        <item itemvalue="Python.preamble" />
-        <item itemvalue="Application.DemoCorpusLoader" />
+        <item itemvalue="Application.EvaluateBigram" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +216,49 @@
       <option name="project" value="LOCAL" />
       <updated>1608630345397</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ch03.Sec03.IDEA.Config.End">
+      <created>1608633785262</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608633785262</updated>
+    </task>
+    <task id="LOCAL-00009" summary="README.格式整理">
+      <created>1608633822558</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608633822558</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ch03.Sec04.Java.End">
+      <created>1608693926287</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608693926287</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ch03.Sec03.Python.End">
+      <created>1608693941136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608693941136</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ch03.MSR.Java.统一到单一类中.End">
+      <created>1608861403929</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608861403929</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ch03.MSR.Python.统一到单一文件中.End">
+      <created>1608861468095</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608861468095</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,7 +269,13 @@
     <MESSAGE value="Ch03.Sec02.Tools.test_data_path().获取测试数据路径.End" />
     <MESSAGE value="Ch03.Sec03.CoreDictionary.reload() 修正字典更新问题说明" />
     <MESSAGE value="Ch03.Sec03.Data.End" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch03.Sec03.Data.End" />
+    <MESSAGE value="Ch03.Sec03.IDEA.Config.End" />
+    <MESSAGE value="README.格式整理" />
+    <MESSAGE value="Ch03.Sec04.Java.End" />
+    <MESSAGE value="Ch03.Sec03.Python.End" />
+    <MESSAGE value="Ch03.MSR.Java.统一到单一类中.End" />
+    <MESSAGE value="Ch03.MSR.Python.统一到单一文件中.End" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch03.MSR.Python.统一到单一文件中.End" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,11 +284,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ch02/sec10/DemoStopwords.java</url>
           <line>63</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/python/ch03/sec02/sighan05_statistics.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
