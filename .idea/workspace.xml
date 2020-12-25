@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="Ch03.Sec03.Core">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hanlp-Books-Examples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch03/sec03/DemoNgramSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch03/sec03/DemoNgramSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/ch03/sec05/demo_adjust_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/ch03/sec05/demo_adjust_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/preamble.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/preamble.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28390804" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,13 +56,13 @@
       <recent name="ch03.sec03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo_adjust_model">
-    <configuration name="DemoAdjustModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch03.sec05.DemoAdjustModel" />
+  <component name="RunManager" selected="Python.hmm_cws">
+    <configuration name="CWS_HMM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec06.CWS_HMM" />
       <module name="Hanlp-Books-Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch03.sec05.*" />
+          <option name="PATTERN" value="ch04.sec06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,15 +70,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvaluateBigram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch03.sec05.EvaluateBigram" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="Hanlp-Books-Examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch03.sec05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo_ngram_segment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="doctor_hmm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch03/sec03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch04/sec03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch03/sec03/demo_ngram_segment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch04/sec03/doctor_hmm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,34 +119,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="hmm_cws" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Hanlp-Books-Examples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/ch04/sec06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/data/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/ch04/sec06/hmm_cws.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.EvaluateBigram" />
-      <item itemvalue="Application.DemoAdjustModel" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Python.demo_adjust_model" />
-      <item itemvalue="Python.demo_ngram_segment" />
-      <item itemvalue="Python tests.Unittests in test" />
+      <item itemvalue="Python.doctor_hmm" />
+      <item itemvalue="Application.CWS_HMM" />
+      <item itemvalue="Python.hmm_cws" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hmm_cws" />
+        <item itemvalue="Application.CWS_HMM" />
+        <item itemvalue="Python.doctor_hmm" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Python.demo_adjust_model" />
-        <item itemvalue="Python tests.Unittests in test" />
-        <item itemvalue="Application.DemoAdjustModel" />
-        <item itemvalue="Python.demo_ngram_segment" />
-        <item itemvalue="Application.EvaluateBigram" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608861468095</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ch03.Sec03.Ch05.Data.End">
+      <created>1608863072682</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608863072682</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ch03.Sec05.Java.End">
+      <created>1608863150677</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608863150677</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ch03.Sec05.Python.End">
+      <created>1608863172397</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608863172397</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ch03.Sec05.IDEA.Config.End">
+      <created>1608863189123</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608863189123</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +302,11 @@
     <MESSAGE value="Ch03.Sec03.Python.End" />
     <MESSAGE value="Ch03.MSR.Java.统一到单一类中.End" />
     <MESSAGE value="Ch03.MSR.Python.统一到单一文件中.End" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch03.MSR.Python.统一到单一文件中.End" />
+    <MESSAGE value="Ch03.Sec03.Ch05.Data.End" />
+    <MESSAGE value="Ch03.Sec05.Java.End" />
+    <MESSAGE value="Ch03.Sec05.Python.End" />
+    <MESSAGE value="Ch03.Sec05.IDEA.Config.End" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch03.Sec05.IDEA.Config.End" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
