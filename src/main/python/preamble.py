@@ -31,6 +31,9 @@ NatureDictionaryMaker = SafeJClass('com.hankcs.hanlp.corpus.dictionary.NatureDic
 Vertex = JClass('com.hankcs.hanlp.seg.common.Vertex')
 ViterbiSegment = JClass('com.hankcs.hanlp.seg.Viterbi.ViterbiSegment')
 WordNet = JClass('com.hankcs.hanlp.seg.common.WordNet')
+FirstOrderHiddenMarkovModel = JClass('com.hankcs.hanlp.model.hmm.FirstOrderHiddenMarkovModel')
+SecondOrderHiddenMarkovModel = JClass('com.hankcs.hanlp.model.hmm.SecondOrderHiddenMarkovModel')
+HMMSegmenter = JClass('com.hankcs.hanlp.model.hmm.HMMSegmenter')
 
 
 # ----------------------------------------------------------------------
