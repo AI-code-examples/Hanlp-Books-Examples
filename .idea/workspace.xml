@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a747d4-326f-49b7-adce-7c61097efcf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test/icwb2-data/testing/msr_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/ch03/sec05/demo_adjust_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/ch03/sec05/demo_adjust_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/preamble.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/preamble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +282,56 @@
       <option name="project" value="LOCAL" />
       <updated>1608863189123</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ch04.Sec06.Java.End">
+      <created>1608880666474</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880666474</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Ch04.Sec06.Python.End">
+      <created>1608880690416</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880690416</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Ch04.Sec06.Data.End">
+      <created>1608880750607</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880750607</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Ch04.Sec03.Python.End">
+      <created>1608880779193</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880779193</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Ch03.Sec05.Python.乱码说明">
+      <created>1608880815666</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880815666</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Preamble.HMM 函数声明">
+      <created>1608880845074</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880845074</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Ch04.IDEA.Config.End">
+      <created>1608880865074</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608880865074</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,7 +352,14 @@
     <MESSAGE value="Ch03.Sec05.Java.End" />
     <MESSAGE value="Ch03.Sec05.Python.End" />
     <MESSAGE value="Ch03.Sec05.IDEA.Config.End" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch03.Sec05.IDEA.Config.End" />
+    <MESSAGE value="Ch04.Sec06.Java.End" />
+    <MESSAGE value="Ch04.Sec06.Python.End" />
+    <MESSAGE value="Ch04.Sec06.Data.End" />
+    <MESSAGE value="Ch04.Sec03.Python.End" />
+    <MESSAGE value="Ch03.Sec05.Python.乱码说明" />
+    <MESSAGE value="Preamble.HMM 函数声明" />
+    <MESSAGE value="Ch04.IDEA.Config.End" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch04.IDEA.Config.End" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

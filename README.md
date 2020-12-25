@@ -1,9 +1,14 @@
 # Hanlp-Books-Examples
 
-《自然语言处理入门》书中的例子
+这个库是对《自然语言处理入门》书中的例子的修正，按照下文中指定的版本进行了测试。
 
--   [书中 Java 代码](https://github.com/hankcs/HanLP/tree/1.x/src/test/java/com/hankcs/book)
--   [书中 Python 代码](https://github.com/hankcs/pyhanlp/tree/master/tests/book)
+-   [项目中的 Java 代码](https://github.com/zhuyuanxiang/Hanlp-Books-Examples/tree/main/src/main/java)
+-   [项目中的 Python 代码](https://github.com/zhuyuanxiang/Hanlp-Books-Examples/tree/main/src/main/python)
+
+如果需要原作者提供的例子可以参考下面的链接：
+
+-   [原书中 Java 代码](https://github.com/hankcs/HanLP/tree/1.x/src/test/java/com/hankcs/book)
+-   [原书中 Python 代码](https://github.com/hankcs/pyhanlp/tree/master/tests/book)
 
 阅读总结：
 
@@ -49,7 +54,7 @@ Hanlp 1.x 的安装
 
 -   PyCharm Community Edition 2020.3
 
-注：PyCharm 与 IDEA 在配置文件的设置上会发生冲突，因此建议主要使用 IDEA 进行学习，使用 VSCode 补充其不足的功能。
+注：PyCharm、VSCode 与 IDEA 在配置文件的设置上会发生冲突，因此建议只使用 IDEA 进行学习。
 
 ## Support
 
