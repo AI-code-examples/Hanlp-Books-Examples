@@ -18,7 +18,8 @@ import re
 
 from pyhanlp import JClass
 
-from tools import beep_end, get_root_path
+from ch03.msr import msr_dict, msr_output, msr_gold
+from tools import beep_end
 
 
 # ----------------------------------------------------------------------
@@ -78,12 +79,6 @@ def main():
     # 也可以访问链接：https://pan.baidu.com/s/1rDpWeknm13dyoyjsqu7zFg 提取码：eq5x
     # 或者这里：https://github.com/yuikns/icwb2-data
     # 项目中也已经提供了相应的数据文件
-
-    root_path = get_root_path()
-    msr_dict = root_path + "/data/test/icwb2-data/gold/msr_training_words.utf8"
-    msr_test = root_path + "/data/test/icwb2-data/testing/msr_test.utf8"
-    msr_output = root_path + "/data/test/icwb2-data/testing/msr_output.txt"
-    msr_gold = root_path + "/data/test/icwb2-data/gold/msr_test_gold.utf8"
 
     DoubleArrayTrieSegment = JClass("com.hankcs.hanlp.seg.Other.DoubleArrayTrieSegment")
     segment = DoubleArrayTrieSegment([msr_dict]).enablePartOfSpeechTagging(True)

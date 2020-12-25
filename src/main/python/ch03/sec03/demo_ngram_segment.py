@@ -19,8 +19,17 @@ import os
 from pyhanlp import HanLP
 
 from ch03.sec03.demo_corpus_loader import my_cws_corpus
-from preamble import *
-from tools import beep_end, test_data_path
+from preamble import CoreBiGramTableDictionary
+from preamble import CoreDictionary
+from preamble import CorpusLoader
+from preamble import DijkstraSegment
+from preamble import JString
+from preamble import NatureDictionaryMaker
+from preamble import Vertex
+from preamble import ViterbiSegment
+from preamble import WordNet
+from tools import beep_end
+from tools import test_data_path
 
 
 # ----------------------------------------------------------------------

@@ -53,3 +53,11 @@ def test_data_path():
     if not os.path.isdir(data_path):
         os.mkdir(data_path)
     return data_path
+
+
+def get_data_path():
+    return os.path.join(get_root_path(), 'data/')
+
+
+def icwb2_data_path():
+    return os.path.join(test_data_path(), 'icwb2-data/')

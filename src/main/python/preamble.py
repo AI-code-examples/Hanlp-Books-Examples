@@ -14,20 +14,23 @@
 @Desc       :   
 @理解：
 """
-from pyhanlp import SafeJClass, JClass, LazyLoadingJClass
+from pyhanlp import JClass
+from pyhanlp import LazyLoadingJClass
+from pyhanlp import SafeJClass
 
 from tools import beep_end
 
-NatureDictionaryMaker = SafeJClass('com.hankcs.hanlp.corpus.dictionary.NatureDictionaryMaker')
+CoreBiGramTableDictionary = LazyLoadingJClass('com.hankcs.hanlp.dictionary.CoreBiGramTableDictionary')
+CoreDictionary = LazyLoadingJClass('com.hankcs.hanlp.dictionary.CoreDictionary')
 CorpusLoader = SafeJClass('com.hankcs.hanlp.corpus.document.CorpusLoader')
-WordNet = JClass('com.hankcs.hanlp.seg.common.WordNet')
+CWSEvaluator = SafeJClass('com.hankcs.hanlp.seg.common.CWSEvaluator')
+DijkstraSegment = JClass('com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment')
+JString = JClass('java.lang.String')
+Nature = JClass('com.hankcs.hanlp.corpus.tag.Nature')
+NatureDictionaryMaker = SafeJClass('com.hankcs.hanlp.corpus.dictionary.NatureDictionaryMaker')
 Vertex = JClass('com.hankcs.hanlp.seg.common.Vertex')
 ViterbiSegment = JClass('com.hankcs.hanlp.seg.Viterbi.ViterbiSegment')
-DijkstraSegment = JClass('com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment')
-CoreDictionary = LazyLoadingJClass('com.hankcs.hanlp.dictionary.CoreDictionary')
-CoreBiGramTableDictionary = LazyLoadingJClass('com.hankcs.hanlp.dictionary.CoreBiGramTableDictionary')
-Nature = JClass('com.hankcs.hanlp.corpus.tag.Nature')
-JString=JClass('java.lang.String')
+WordNet = JClass('com.hankcs.hanlp.seg.common.WordNet')
 
 
 # ----------------------------------------------------------------------
