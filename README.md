@@ -14,9 +14,13 @@
 
 这本书更像个自然语言处理的算法书。
 
-## Environment
+## 0. History
 
-### java
+2020-12-27 : 停止更新，因为许多 [数据集](https://file.hankcs.com/corpus/cnname.zip) 无法正常下载。
+
+## 1. Environment
+
+### 1.1 java
 
 [JDK下载](https://developers.redhat.com/products/openjdk/download?sc_cid=701f2000000RWTnAAO) ，建议下载 11.0的版本。
 
